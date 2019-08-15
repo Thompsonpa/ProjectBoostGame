@@ -31,17 +31,17 @@ public class Rocket : MonoBehaviour
         {
             case "Friendly":
                 {
-                    print("Your ok, ass hat");
+                    print("Friendly");
                     break;
                 }
             case "Fuel":
                 {
-                    print("Fuel, ass hat");
+                    print("Fuel");
                     break;
                 }
             default:
                 {
-                    print("Your dead, ass hat");
+                    print("Hurts");
                     break;
                 }
         }
@@ -53,11 +53,11 @@ public class Rocket : MonoBehaviour
         
         float rotationSpeed = rcsThrust * Time.deltaTime;
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {           
             transform.Rotate(Vector3.forward * rotationSpeed);
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             transform.Rotate(-Vector3.forward * rotationSpeed);
         }
@@ -67,7 +67,7 @@ public class Rocket : MonoBehaviour
 
     private void Thrust()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
         {
             RocketRB.AddRelativeForce(Vector3.up * mainThrust);
             if (!RocketAS.isPlaying)
