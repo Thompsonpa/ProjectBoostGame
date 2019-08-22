@@ -6,6 +6,13 @@ public class Rocket : MonoBehaviour
 
     [SerializeField] float rcsThrust = 100f;
     [SerializeField] float mainThrust = 100f;
+    [SerializeField] float levelLoadDelay = 2f;
+    [SerializeField] AudioClip engine;
+    [SerializeField] AudioClip sucess;
+    [SerializeField] AudioClip death;
+    [SerializeField] ParticleSystem engineParticles;
+    [SerializeField] ParticleSystem sucessParticles;
+    [SerializeField] ParticleSystem deathParticles;
 
     Rigidbody RocketRB;
     AudioSource RocketAS;
@@ -31,7 +38,7 @@ public class Rocket : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if(state != State.Alive)
+        if(state != State.Alive) //Ignore Collisions
         {
             return;
         }
@@ -45,14 +52,20 @@ public class Rocket : MonoBehaviour
                 }
             case "Finish":
                 {
+                    RocketAS.Stop();
+                    sucessParticles.Play();
+                    RocketAS.PlayOneShot(sucess);
                     state = State.Transcending;
-                    Invoke("LoadNextLevel", 1f);
+                    Invoke("LoadNextLevel", levelLoadDelay);
                     break;
                 }
             default:
                 {
+                    RocketAS.Stop();
+                    deathParticles.Play();
+                    RocketAS.PlayOneShot(death);
                     state = State.Dying;
-                    Invoke("LoadFirstLevel", 1f);
+                    Invoke("LoadFirstLevel", levelLoadDelay);
                     break;
                 }
         }
@@ -60,12 +73,20 @@ public class Rocket : MonoBehaviour
 
     private void LoadNextLevel()
     {
+        RocketAS.Stop();
         SceneManager.LoadScene(1);
     }
 
     private void LoadFirstLevel()
     {
+        RocketAS.Stop();
         SceneManager.LoadScene(0);
+    }
+
+    private void LoadSecoundLevel()
+    {
+        RocketAS.Stop();
+        SceneManager.LoadScene(1);
     }
 
     private void Rotate()
@@ -90,15 +111,18 @@ public class Rocket : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow))
         {
-            RocketRB.AddRelativeForce(Vector3.up * mainThrust);
+            
+            RocketRB.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
             if (!RocketAS.isPlaying)
             {
-                RocketAS.Play();
-            }
+                RocketAS.PlayOneShot(engine);
+                engineParticles.Play();
+            }        
         }
         else
         {
             RocketAS.Stop();
+            engineParticles.Stop();
         }
     }
 }
