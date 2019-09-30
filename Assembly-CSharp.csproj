@@ -10,7 +10,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{00528956-325F-2294-4F22-8A096929FE44}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -614,6 +615,176 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.0f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library\LastSceneManagerSetup.txt" />
+    <Content Include="Library\LibraryFormatVersion.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\ProjectBoostGame\v15\.suo" />
+    <None Include=".vs\ProjectBoostGame\v15\Browse.VC.db" />
+    <None Include=".vs\ProjectBoostGame\v16\.suo" />
+    <None Include=".vs\ProjectBoostGame\v16\Browse.VC.db" />
+    <None Include=".vs\ProjectBoostGame\v16\Server\sqlite3\db.lock" />
+    <None Include=".vs\ProjectBoostGame\v16\Server\sqlite3\storage.ide" />
+    <None Include=".vs\ProjectBoostGame\v16\Server\sqlite3\storage.ide-shm" />
+    <None Include=".vs\ProjectBoostGame\v16\Server\sqlite3\storage.ide-wal" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="Library\AnnotationManager" />
+    <None Include="Library\APIUpdater\project-dependencies.graph" />
+    <None Include="Library\assetDatabase3" />
+    <None Include="Library\AssetImportState" />
+    <None Include="Library\BuildPlayer.prefs" />
+    <None Include="Library\BuildSettings.asset" />
+    <None Include="Library\CurrentLayout-default.dwlt" />
+    <None Include="Library\EditorUserBuildSettings.asset" />
+    <None Include="Library\EditorUserSettings.asset" />
+    <None Include="Library\expandedItems" />
+    <None Include="Library\InspectorExpandedItems.asset" />
+    <None Include="Library\metadata\00\00000000000000001000000000000000" />
+    <None Include="Library\metadata\00\00000000000000001000000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000002000000000000000" />
+    <None Include="Library\metadata\00\00000000000000002000000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000003000000000000000" />
+    <None Include="Library\metadata\00\00000000000000003000000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000004000000000000000" />
+    <None Include="Library\metadata\00\00000000000000004000000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000004100000000000000" />
+    <None Include="Library\metadata\00\00000000000000004100000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000005000000000000000" />
+    <None Include="Library\metadata\00\00000000000000005000000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000005100000000000000" />
+    <None Include="Library\metadata\00\00000000000000005100000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000006000000000000000" />
+    <None Include="Library\metadata\00\00000000000000006000000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000006100000000000000" />
+    <None Include="Library\metadata\00\00000000000000006100000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000007000000000000000" />
+    <None Include="Library\metadata\00\00000000000000007000000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000007100000000000000" />
+    <None Include="Library\metadata\00\00000000000000007100000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000008000000000000000" />
+    <None Include="Library\metadata\00\00000000000000008000000000000000.info" />
+    <None Include="Library\metadata\00\00000000000000009000000000000000" />
+    <None Include="Library\metadata\00\00000000000000009000000000000000.info" />
+    <None Include="Library\metadata\00\0000000000000000a100000000000000" />
+    <None Include="Library\metadata\00\0000000000000000a100000000000000.info" />
+    <None Include="Library\metadata\00\0000000000000000b000000000000000" />
+    <None Include="Library\metadata\00\0000000000000000b000000000000000.info" />
+    <None Include="Library\metadata\00\0000000000000000b100000000000000" />
+    <None Include="Library\metadata\00\0000000000000000b100000000000000.info" />
+    <None Include="Library\metadata\00\0000000000000000c000000000000000" />
+    <None Include="Library\metadata\00\0000000000000000c000000000000000.info" />
+    <None Include="Library\metadata\00\0000000000000000c100000000000000" />
+    <None Include="Library\metadata\00\0000000000000000c100000000000000.info" />
+    <None Include="Library\metadata\00\00187582b67e7654b914b5a0d37daafb" />
+    <None Include="Library\metadata\00\00187582b67e7654b914b5a0d37daafb.info" />
+    <None Include="Library\metadata\00\006633c8a6f4ae94aa9babf72234e1a2" />
+    <None Include="Library\metadata\00\006633c8a6f4ae94aa9babf72234e1a2.info" />
+    <None Include="Library\metadata\00\00f9a68859b850648902e0c98c25b590" />
+    <None Include="Library\metadata\00\00f9a68859b850648902e0c98c25b590.info" />
+    <None Include="Library\metadata\01\01ada73c4792aba4c937ff5d92cce866" />
+    <None Include="Library\metadata\01\01ada73c4792aba4c937ff5d92cce866.info" />
+    <None Include="Library\metadata\01\01cd96d8687272f4898cfd1562079dd7" />
+    <None Include="Library\metadata\01\01cd96d8687272f4898cfd1562079dd7.info" />
+    <None Include="Library\metadata\01\01df650e1b86e9f4a8e2b5dc9782506f" />
+    <None Include="Library\metadata\01\01df650e1b86e9f4a8e2b5dc9782506f.info" />
+    <None Include="Library\metadata\02\020ee4c1798a3d243a4b8cbfee6cac2d" />
+    <None Include="Library\metadata\02\020ee4c1798a3d243a4b8cbfee6cac2d.info" />
+    <None Include="Library\metadata\02\0217a80286f79419daa202f69409f19b" />
+    <None Include="Library\metadata\02\0217a80286f79419daa202f69409f19b.info" />
+    <None Include="Library\metadata\02\02893ffb522b490a9fa28eedd2584309" />
+    <None Include="Library\metadata\02\02893ffb522b490a9fa28eedd2584309.info" />
+    <None Include="Library\metadata\02\02e1fe0a338b35545a5fed1345848332" />
+    <None Include="Library\metadata\02\02e1fe0a338b35545a5fed1345848332.info" />
+    <None Include="Library\metadata\02\02f771204943f4a40949438e873e3eff" />
+    <None Include="Library\metadata\02\02f771204943f4a40949438e873e3eff.info" />
+    <None Include="Library\metadata\03\030f85c3f73729f4f976f66ffb23b875" />
+    <None Include="Library\metadata\03\030f85c3f73729f4f976f66ffb23b875.info" />
+    <None Include="Library\metadata\03\0336a32a79bfaed43a3fd2d88b91e974" />
+    <None Include="Library\metadata\03\0336a32a79bfaed43a3fd2d88b91e974.info" />
+    <None Include="Library\metadata\03\033c884ba52437d49bc55935939ef1c6" />
+    <None Include="Library\metadata\03\033c884ba52437d49bc55935939ef1c6.info" />
+    <None Include="Library\metadata\03\0386b6eb838c47138cd51d1c1b879a35" />
+    <None Include="Library\metadata\03\0386b6eb838c47138cd51d1c1b879a35.info" />
+    <None Include="Library\metadata\03\03e4d63665d06f04c8a6cf68133c1592" />
+    <None Include="Library\metadata\03\03e4d63665d06f04c8a6cf68133c1592.info" />
+    <None Include="Library\metadata\04\046c3854296c5ec48bac50da6ca248ec" />
+    <None Include="Library\metadata\04\046c3854296c5ec48bac50da6ca248ec.info" />
+    <None Include="Library\metadata\04\04cc958f40f350044a432c012f320305" />
+    <None Include="Library\metadata\04\04cc958f40f350044a432c012f320305.info" />
+    <None Include="Library\metadata\05\056819c66570ca54cadb72330a354050" />
+    <None Include="Library\metadata\05\056819c66570ca54cadb72330a354050.info" />
+    <None Include="Library\metadata\05\05778dd1de4433d418793b6f3d3c18cf" />
+    <None Include="Library\metadata\05\05778dd1de4433d418793b6f3d3c18cf.info" />
+    <None Include="Library\metadata\05\058cba836c1846c3aa1c5fd2e28aea77" />
+    <None Include="Library\metadata\05\058cba836c1846c3aa1c5fd2e28aea77.info" />
+    <None Include="Library\metadata\05\05f582d4fbc8e0c40afccb76bbbe0935" />
+    <None Include="Library\metadata\05\05f582d4fbc8e0c40afccb76bbbe0935.info" />
+    <None Include="Library\metadata\05\05f5bfd584002f948982a1498890f9a9" />
+    <None Include="Library\metadata\05\05f5bfd584002f948982a1498890f9a9.info" />
+    <None Include="Library\metadata\05\05f7f519769978b79b31d063a7fc6fa1" />
+    <None Include="Library\metadata\05\05f7f519769978b79b31d063a7fc6fa1.info" />
+    <None Include="Library\metadata\05\05f92e4a2414cb144a92157752dfa324" />
+    <None Include="Library\metadata\05\05f92e4a2414cb144a92157752dfa324.info" />
+    <None Include="Library\metadata\06\066619c9c9c84f89acb1b48c11a7efe2" />
+    <None Include="Library\metadata\06\066619c9c9c84f89acb1b48c11a7efe2.info" />
+    <None Include="Library\metadata\06\06ae1baf5524b314fa65b173b9eca869" />
+    <None Include="Library\metadata\06\06ae1baf5524b314fa65b173b9eca869.info" />
+    <None Include="Library\metadata\07\077690d334440b044bdd51b26b3e9413" />
+    <None Include="Library\metadata\07\077690d334440b044bdd51b26b3e9413.info" />
+    <None Include="Library\metadata\07\07994bfe8b0e4adb97d706de5dea48d5" />
+    <None Include="Library\metadata\07\07994bfe8b0e4adb97d706de5dea48d5.info" />
+    <None Include="Library\metadata\07\07a967d2fca95324f8922df8394a5655" />
+    <None Include="Library\metadata\07\07a967d2fca95324f8922df8394a5655.info" />
+    <None Include="Library\metadata\07\07ea0326ed848fb4489187cb58f96113" />
+    <None Include="Library\metadata\07\07ea0326ed848fb4489187cb58f96113.info" />
+    <None Include="Library\metadata\08\083c6a3a5426382449369ddc12b691d8" />
+    <None Include="Library\metadata\08\083c6a3a5426382449369ddc12b691d8.info" />
+    <None Include="Library\metadata\08\087cba9fa6ac867479a0b0fdc0a5864b" />
+    <None Include="Library\metadata\08\087cba9fa6ac867479a0b0fdc0a5864b.info" />
+    <None Include="Library\metadata\08\08d23c0b73905c148b525c3c93fff580" />
+    <None Include="Library\metadata\08\08d23c0b73905c148b525c3c93fff580.info" />
+    <None Include="Library\metadata\08\08e9894bdf0834710b22d3c0aa245ac0" />
+    <None Include="Library\metadata\08\08e9894bdf0834710b22d3c0aa245ac0.info" />
+    <None Include="Library\metadata\09\09e28640d754a611467eebfb261ed749" />
+    <None Include="Library\metadata\09\09e28640d754a611467eebfb261ed749.info" />
+    <None Include="Library\metadata\09\09e68d8a529a36340b752b99a1b70f83" />
+    <None Include="Library\metadata\09\09e68d8a529a36340b752b99a1b70f83.info" />
+    <None Include="Library\metadata\09\09f4db536a377bc40a9ac110af702bfa" />
+    <None Include="Library\metadata\09\09f4db536a377bc40a9ac110af702bfa.info" />
+    <None Include="Library\metadata\0a\0a017569bfe174e4890797b4d64cbabc" />
+    <None Include="Library\metadata\0a\0a017569bfe174e4890797b4d64cbabc.info" />
+    <None Include="Library\metadata\0a\0aaa057ce5566e940b18a0ccd0344693" />
+    <None Include="Library\metadata\0a\0aaa057ce5566e940b18a0ccd0344693.info" />
+    <None Include="Library\metadata\0a\0acc523941302664db1f4e527237feb3" />
+    <None Include="Library\metadata\0a\0acc523941302664db1f4e527237feb3.info" />
+    <None Include="Library\metadata\0b\0b2706df6fdff50448f84a3f6629b40f" />
+    <None Include="Library\metadata\0b\0b2706df6fdff50448f84a3f6629b40f.info" />
+    <None Include="Library\metadata\0b\0bb74b1c097396c49b1691e6a938f814" />
+    <None Include="Library\metadata\0b\0bb74b1c097396c49b1691e6a938f814.info" />
+    <None Include="Library\metadata\0c\0c04c8cb23b78e04492e0f310cdee93e" />
+    <None Include="Library\metadata\0c\0c04c8cb23b78e04492e0f310cdee93e.info" />
+    <None Include="Library\metadata\0c\0c56471f08a0f6846afc792f0b4205b9" />
+    <None Include="Library\metadata\0c\0c56471f08a0f6846afc792f0b4205b9.info" />
+    <None Include="Library\metadata\0c\0ca2545d76d1fb34fa45a9f1e432d259" />
+    <None Include="Library\metadata\0c\0ca2545d76d1fb34fa45a9f1e432d259.info" />
+    <None Include="Library\MonoManager.asset" />
+    <None Include="Library\ProjectSettings.asset" />
+    <None Include="Library\SceneVisibilityState.asset" />
+    <None Include="Library\ScriptMapper" />
+    <None Include="Library\ShaderCache.db" />
+    <None Include="Library\shadercompiler-UnityShaderCompiler.exe0.log" />
+    <None Include="Library\shadercompiler-UnityShaderCompiler.exe1.log" />
+    <None Include="Library\shadercompiler-UnityShaderCompiler.exe2.log" />
+    <None Include="Library\shadercompiler-UnityShaderCompiler.exe3.log" />
+    <None Include="Library\shadercompiler-UnityShaderCompiler.exe4.log" />
+    <None Include="Library\shadercompiler-UnityShaderCompiler.exe5.log" />
+    <None Include="Library\shadercompiler-UnityShaderCompiler.exe6.log" />
+    <None Include="Library\SpriteAtlasDatabase.asset" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
